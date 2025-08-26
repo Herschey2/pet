@@ -1,6 +1,8 @@
 void setup() {
   size(500, 500);
   rectMode(CORNERS);
+  hint(ENABLE_STROKE_PURE);
+
 }
 void draw() {
   eyeStalk(300,120, 350, 300);
