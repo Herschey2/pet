@@ -1,7 +1,7 @@
 void setup() {
   size(500, 500);
   rectMode(CORNERS);
-  hint(ENABLE_STROKE_PURE);
+  smooth(4);
 
 }
 void draw() {
